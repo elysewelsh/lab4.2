@@ -3,7 +3,7 @@ let shoppingList = []
 //1.2. Write a function called addItem that takes an item as a parameter and adds it to the shoppingList array.
 function addItem (item) {
 //2.1. Modify the addItem function to only add the item if it is not already in the shoppingList array.
-    if shoppingList.includes(item) {
+    if (shoppingList.includes(item)) {
         console.log("Duplicate value")
         return
     }
